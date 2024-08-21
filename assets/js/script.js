@@ -1,30 +1,7 @@
 // object
-const task = {
-    id: 0,
-    name: 'Almoço',
-    time: '10:30',
-    label: 'work',
-    done: true
-  }
-  
-  
+
   // Array of list of task
   let listTasks = [
-    task, 
-    {
-      id: 1,
-      name: 'Academia em grupo',
-      time: '11:00',
-      label: 'work',
-      done: false
-    },
-    {
-      id:2,
-      name: 'Gaming session',
-      time: '11:30',
-      label: 'work',
-      done: true
-    }
   ]
   
   // Task
