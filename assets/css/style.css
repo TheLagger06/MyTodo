@@ -87,6 +87,9 @@
   }
 
   /*  main  */
+  .hidden{
+    visibility: hidden;
+  }
 main {
     margin-top: 32px;
   }
