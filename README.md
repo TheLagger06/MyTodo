@@ -14,17 +14,25 @@ Table of Contents
     <summary><a href="#features-and-structure">SECTION 2: PROJECT FEATURES AND STRUCTURE</summary>
     <li><a href="#features">Features</a></li>
     <li><a href="#features_User">Features User Stories</a></li>
+     <li><a href="#project">Project Structure</a></li>
+      <li><a href="#technologies">Technologies Used</a></li>
+       <li><a href="#future">Future Enhancements</a></li>
     <li><a href="#wireframes">Wireframes</a></li>
 </details>
 <details>
-<summary><a href="#deployment">SECTION 3: DEPLOYMENT & INSTALLATION</a>
+<summary><a href="#deployment">SECTION 3: TESTING AND VALIDATION</a>
 </summary>
     <li><a href="#testing">Testing</a></li>
     <li><a href="#validation">Validation</a></li>
-
 </details>
 <details>
-<summary><a href="#resources">SECTION 4: RESOURCES</a>
+<summary><a href="#resources">SECTION 4: DEPLOYMENT & INSTALLATION</a>
+</summary>
+<summary><li><a href="#demo">Demo</a></li></summary>
+<summary><li><a href="#installation">Installation</a></li></summary>
+</details>
+<details>
+<summary><a href="#resources">SECTION 5: RESOURCES</a>
 </summary>
 <summary><li><a href="#resources">Resources</a></li></summary>
 </details>
@@ -66,24 +74,45 @@ Task Prioritization: By allowing users to categorize tasks by labels, MyTodo hel
 
 1. Add a Task
 
-- As a user, I want to be able to add a new task so that I can keep track of things I need to do.
-- I want to categorize my tasks by different labels (Work, Home, Shopping, Urgent) so that I can easily manage and prioritize them.
+    - As a user, I want to be able to add a new task so that I can keep track of things I need to do.
+    - I want to categorize my tasks by different labels (Work, Home, Shopping, Urgent) so that I can easily manage and prioritize them.
 
 2. View Task List
 
-- As a user, I want to see all my tasks listed in one place so that I can review what needs to be done today.
+    - As a user, I want to see all my tasks listed in one place so that I can review what needs to be done today.
 
-- I want my tasks to be organized by time so that I can manage my day effectively.
+    - I want my tasks to be organized by time so that I can manage my day effectively.
 
 3. Complete a Task
 
-- As a user, I want to mark tasks as complete so that I can track my progress.
+    - As a user, I want to mark tasks as complete so that I can track my progress.
 
-- I want completed tasks to be visually distinct so that I can quickly see what I have accomplished.
+    - I want completed tasks to be visually distinct so that I can quickly see what I have accomplished.
 
 4. Prevent Overlapping Tasks
 
-- As a user, I want to be alerted if I try to schedule two tasks at the same time so that I can avoid conflicts in my schedule.
+    - As a user, I want to be alerted if I try to schedule two tasks at the same time so that I can avoid conflicts in my schedule.
+
+#
+
+<h2 id="usage">Usage</h2>
+
+1. Add a Task:
+
+    - Enter the task name in the "Task for today?" input field.
+    - Select a label (Work, Home, Shopping, Urgent).
+    - Choose a time for the task.
+    - Click "Add Task" to add the task to your list.
+
+2. View Tasks:
+
+    - All tasks will be displayed under the "Task" section.
+    - Tasks are organized based on the time they are scheduled.
+
+3. Mark a Task as Complete:
+
+    - Check the checkbox next to a task to mark it as complete.
+    - Completed tasks will display a different icon.
 
 #
 
@@ -101,15 +130,41 @@ Task Prioritization: By allowing users to categorize tasks by labels, MyTodo hel
 
 1. Edit a Task
 
-- As a user, I want to be able to edit existing tasks so that I can update or correct any details.
+    - As a user, I want to be able to edit existing tasks so that I can update or correct any details.
  
-2.Delete a Task
+2. Delete a Task
 
-- As a user, I want to remove tasks that I no longer need to complete, so my task list remains relevant and up-to-date.
+    - As a user, I want to remove tasks that I no longer need to complete, so my task list remains relevant and up-to-date.
 
 3. Receive Notifications
 
-- As a user, I want to receive notifications for my tasks so that I don’t forget to complete them.
+    - As a user, I want to receive notifications for my tasks so that I don’t forget to complete them.
+
+#
+
+<h1 id="project">Project Structure</h1>
+
+- index.html: The main HTML file containing the structure of the app.
+
+- style.css: The CSS file responsible for the app's styling and layout.
+
+- script.js: The JavaScript file handling the app's functionality, such as task creation, updating, and completion.
+
+#
+
+<h1 id="technologies">Technologies Used</h1>
+
+- HTML5: For structuring the web page.
+- CSS3: For styling and layout.
+- JavaScript: For adding interactivity to the app.
+
+#
+
+<h1 id="future">Future Enhancements</h1>
+
+- Task Editing: Allow users to edit existing tasks.
+- Task Deletion: Allow users to remove tasks.
+- Notification System: Notify users when it's time to complete a task.
 
 #
 
@@ -162,9 +217,9 @@ The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to che
 
 #
 
-<h1 id="deployment">SECTION 3: DEPLOYMENT & INSTALLATION</h1>
+<h1 id="deployment">SECTION 4: DEPLOYMENT & INSTALLATION</h1>
 
-
+<h2 id="demo">Demo</h2>
 
 https://thelagger06.github.io/MyTodo/
 
@@ -172,23 +227,24 @@ https://thelagger06.github.io/MyTodo/
 
 <h2 id="installation">Installation</h2>
 
-1- Clone the repository:
+1. Clone the repository:
 
 
-<code>git clone https://github.com/your-username/mytodo.git </code>
+    <code>git clone https://github.com/your-username/mytodo.git </code>
 
 
-2 -Navigate to the project directory:
+2. Navigate to the project directory:
 
-<code>cd mytodo </code>
+    <code>cd mytodo </code>
 
-3- Open index.html in your preferred web browser:
+3. Open index.html in your preferred web browser:
 
-<code>open index.html</code>
+    <code>open index.html</code>
 
 #
 
 <h1 id="resources">RESOURCES</h1>
+
 
 
 https://www.cssmatic.com/box-shadow
